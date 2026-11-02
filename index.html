@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Этапы создания сайта</title>
+    <style>
+        body {
+            background-color: #fff5e8;
+            color: #30251d;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .header {
+            background-color: #ed7628;
+            background-image: linear-gradient(#f58a37, #ed7628);
+            color: white;
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px auto;
+            width: 700px;
+            padding: 0 15px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #f0d9bd;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px 0px rgba(48, 37, 29, 0.18);
+            margin-bottom: 14px;
+            padding: 16px;
+            width: 42%;
+        }
+
+        .number {
+            color: #d79400;
+            font-family: Georgia, serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .picture {
+            display: block;
+            height: 70px;
+            margin: 18px auto 0;
+            opacity: 0.9;
+            width: 180px;
+        }
+
+        .footer {
+            color: #6e6257;
+            padding: 15px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card {
+                width: 85%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Дизайн и разработка</h1>
+        <p>Шесть шагов от идеи до готового сайта</p>
+
+        <svg class="picture" viewBox="0 0 180 70" xmlns="http://www.w3.org/2000/svg" aria-label="Шесть этапов проекта" role="img">
+            <line x1="18" y1="35" x2="162" y2="35" stroke="white" stroke-width="3" />
+            <circle cx="18" cy="35" r="10" fill="#f7c943" />
+            <circle cx="47" cy="35" r="10" fill="#fff" />
+            <circle cx="76" cy="35" r="10" fill="#f7c943" />
+            <circle cx="105" cy="35" r="10" fill="#fff" />
+            <circle cx="134" cy="35" r="10" fill="#f7c943" />
+            <circle cx="162" cy="35" r="10" fill="#fff" />
+        </svg>
+    </div>
+
+    <div class="content">
+        <div class="card">
+            <h2><span class="number">01</span> Знакомство</h2>
+            <p>Сначала мы <strong>обсуждаем идею</strong> и решаем, каким должен быть сайт.</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="number">02</span> Исследование</h2>
+            <p>Изучаем тему и думаем, <em>кому будет полезен</em> наш сайт.</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="number">03</span> Планирование</h2>
+            <p>Решаем, какие страницы и разделы будут на сайте.</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="number">04</span> Дизайн</h2>
+            <p>Выбираем цвета, заголовки и внешний вид страницы.</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="number">05</span> Создание сайта</h2>
+            <p>Добавляем текст и оформляем его при помощи HTML и CSS.</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="number">06</span> Запуск</h2>
+            <p>Проверяем результат и показываем готовый сайт.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <p><b>Каждый большой проект начинается с идеи.</b></p>
+    </div>
+</body>
+</html>
